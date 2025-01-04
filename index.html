@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="heading">BMI Calculator</h1>
+        <form>
+            <div class="input-container">
+                <label for="height">Height in CM</label>
+                <input type="text" name="height" id="height" class="input-field">
+            </div>
+            <div class="input-container">
+                <label for="weight">Weight in KG</label>
+                <input type="text" name="" id="weight" class="input-field">
+            </div>
+            <button class="calculate-button">Calculate BMI</button>
+            <div class="result-container">
+                <h3>Result: </h3>
+                <span id="result"></span>
+            </div>
+            <div class="weight-guide">
+                <h3>BMI Weight Guide</h3>
+                <ul>
+                    <li>Under weight : Less than 18.5</li>
+                    <li>Normal weight : Between 18.5 - 24.9</li>
+                    <li>Over weight : Between 25 - 29.9</li>
+                    <li>Obesity (class 1) : Between 30 - 34.9</li>
+                    <li>Obesity (class 2) : Between 35 - 39.9</li>
+                    <li>Exteme Obesity (class 3): More than 40</li>
+                </ul>
+
+            </div>
+
+        </form>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
