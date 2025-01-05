@@ -71,6 +71,9 @@ label{
         display: inline;
         font-size: 1.3rem;
     }
+    #result{
+        font-weight: 600;
+    }
 }
 
 .weight-guide > ul {
