@@ -29,25 +29,31 @@ form.addEventListener("submit", (e) => {
 
     if (BMI <= 18.6) {
         result.innerHTML = ` BMi: ${BMI} , Underweight`;
+        result.style.color = "white";
         document.body.style.backgroundColor = "#d2dbd7eb"
     } else if (BMI >= 18.6 && BMI < 25) {
         result.innerHTML = ` BMi: ${BMI} , Normal Weight (Healthy Range, Zone: Green)`;
+        result.style.color = "green";
         document.body.style.backgroundColor = "#0f0";
     }
     else if (BMI >= 25 && BMI < 30) {
         result.innerHTML = ` BMi: ${BMI} , Overweight (Zone: Orange)`;
+        result.style.color = "orange";
         document.body.style.backgroundColor = "orange";
     }
     else if (BMI >= 30 && BMI < 35) {
         result.innerHTML = ` BMi: ${BMI} , Obesity (Zone: Red)`;
+        result.style.color = "red";
         document.body.style.backgroundColor = "red";
     }
     else if (BMI >= 35 && BMI < 40) {
         result.innerHTML = ` BMi: ${BMI} , Obesity  (Zone: Dark Red)`;
+        result.style.color = "#a50c0cfc";
         document.body.style.backgroundColor = "#a50c0cfc";
     }
     else {
         result.innerHTML = ` BMi: ${BMI} , exteme (Zone: Black)`;
+        result.style.color = "black";
         document.body.style.backgroundColor = "black";
     }
 });
