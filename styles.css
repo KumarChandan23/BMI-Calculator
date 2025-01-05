@@ -9,21 +9,21 @@ body {
     height: 100%;
     width: 100%;
     font-family: sans-serif;
-    background: #c9dadbeb;
+    background: #fdbef6eb;
     color: #000;
 }
 
 .container {
-    background: #c9dada;
+    background: #fabbf5cc;
     position: absolute;
-    top: 40%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 10px;
     padding: 1rem;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
-    width: 90%; /* Add responsive width */
-    max-width: 600px; /* Max width for large screens */
+    width: 90%;
+    max-width: 600px; 
 }
 
 .heading {
@@ -47,7 +47,7 @@ label{
     border-radius: 5px;
     height: 30px;
     padding: 0 5px;
-    width: 60%; /* Make input fields responsive */
+    width: 60%; 
 }
 
 .calculate-button {
@@ -57,7 +57,7 @@ label{
     border-radius: 10px;
     border: none;
     outline: none;
-    width: 40%; /* Make button responsive */
+    width: 40%; 
     font-size: 1.3rem;
     &:hover {
         cursor: pointer;
