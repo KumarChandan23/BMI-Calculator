@@ -116,7 +116,11 @@ label{
 }
 
 @media (max-width: 480px) {
+    body{
+        background-color: #d0c5d4;
+    }
     .container {
+        background-color: #eae3f4;
         width: 90%;
         padding: 1rem;
     }
