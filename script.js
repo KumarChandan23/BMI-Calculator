@@ -4,10 +4,13 @@ let form = document.querySelector('form');
 form.addEventListener("submit", (e) => {
     e.preventDefault();
     let heightValue = document.querySelector('#height').value;
+    
     let weightValue = document.querySelector('#weight').value;
+   
 
     if (heightValue === '') {
         result.innerHTML = `Please enter  height `;
+        result.style.color = "red";
         return;
     } else if (parseInt(heightValue) <= 0 || isNaN(parseInt(heightValue))) {
         result.innerHTML = `Please enter valid height: ${heightValue}`;
